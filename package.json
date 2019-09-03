@@ -1,0 +1,23 @@
+{
+  "name": "buycoins-graphql",
+  "version": "1.0.0",
+  "description": "Endpoint to resolve exchange rate using graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "qalac",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4"
+  },
+  "engines": {
+    "node": "v8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
