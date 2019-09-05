@@ -1,4 +1,4 @@
-const price = require('../price')
+const price = require('../api-data/price')
 // The root provides a resolver function for each API endpoint
 var root = {
     calculatePrice: function ({type, margin, exchangeRate}) {
@@ -17,4 +17,3 @@ var root = {
 
 
 module.exports = root
-
